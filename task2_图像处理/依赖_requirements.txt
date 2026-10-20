@@ -1,0 +1,7 @@
+# task2 依赖
+# 注意：必须用 contrib 版——TrackerCSRT/KCF/MOSSE 在 cv2.legacy 里，OpenCV 5.x 已删除。
+# 也不要同时装 opencv-python，两者会互相覆盖（装 ultralytics 时它会被顺带装上）。
+opencv-contrib-python==4.12.0.88
+numpy
+matplotlib
+Pillow

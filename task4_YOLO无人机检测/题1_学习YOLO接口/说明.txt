@@ -1,0 +1,10 @@
+﻿题一「学习 YOLO 的基本 api 接口，学会如何训练与使用 YOLO 模型进行推理」是学习题，
+没有独立的代码产出，它的实现体现在题2~题5 的脚本里：
+
+  model = YOLO(权重路径)                # 载入模型
+  model.predict(图片或帧, imgsz=, conf=) # 推理
+  model.train(data=, epochs=, imgsz=)   # 训练
+  model.export(format="onnx")           # 导出
+
+具体用法见同级的题2（推理）、题3（训练与导出）、题4（视频逐帧推理）、题5（量化）。
+相关说明也写在报告的第二章。
